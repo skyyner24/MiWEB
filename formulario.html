@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Mi primer formulario</title>
 </head>
 <body>
 
-    <form>
-        <h1>Mi primer formulario</h1>
+    <form action="otroHTML.html" method="post">
+        <h1>Formulario de inscripción</h1>
         <p><label for="nombre">Nombre: <input type="text" id="nombre"></label></p>
         <p><label for="apellido">Apellido: <input type="text" id="apellido"></label></p>
         <p><label for="edad">Edad: <input type="text" id="edad"></label></p>
-        <p><label for="observacion">Observación:<textarea id="observacion"></textarea></label></p>
         
         <p><label>Estatura: 
             <select id="estatura">
@@ -25,17 +24,20 @@
         </label></p>
 
         <p><b>Color de ojos:</b></p>
-            <input type="checkbox" name="marron" >
-            <label>Marrón</label>
+            <input type="checkbox" name="marron">
+            <label>Marrón</label><br>
             <input type="checkbox" name="verde" >
-            <label>Verde</label>
+            <label>Verde</label><br>
             <input type="checkbox" name="celeste" >
-            <label> Celeste</label>
+            <label> Celeste</label><br>
             <input type="checkbox" name="otro" >
-            <label>Otro</label>
+            <label>Otro</label><br>
+
+            <p><label for="observacion">Observación:<textarea id="observacion"></textarea></label></p>
+
         <p><button type="submit">Enviar</button> </p>
     </form>
-    
+   
     
 </body>
 </html>
