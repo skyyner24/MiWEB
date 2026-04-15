@@ -1,3 +1,16 @@
+*{
+    background-color: rgb(189, 250, 177);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.referencia{
+    color: black;
+}
+
+#java{
+    color: red;
+}
+
 h1 {
     color:black;
     font-family: sans-serif;
@@ -16,9 +29,10 @@ a{
 }
 
 p{
-    color: blue;
+    color: rgb(240, 5, 83);
 }
 
 label{
     color: darkorchid;
 }
+
